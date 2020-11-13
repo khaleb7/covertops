@@ -19,9 +19,10 @@
     }
   ],
   "gridDistance": 5,
+  "initiative": "1d10",
   "gridUnits": "ft",
-  "primaryTokenAttribute": "health",
-  "secondaryTokenAttribute": "power",
+  "primaryTokenAttribute": "BP",
+  "secondaryTokenAttribute": "MOV",
   "url": "",
   "manifest": "",
   "download": "",

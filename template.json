@@ -61,82 +61,82 @@
       "skills": {
         "academic": {
           "value": 0,
-          "label": "Academic",
+          "label": "Academic(LOG)",
           "primSec": "-",
           "level": 0,
           "spec": "",
-          "adv": yes
+          "stat": "LOG",
+          "adv": "yes"
         },
         "investigator": {
           "value": 0,
-          "label": "Investigator",
+          "label": "Investigator(LOG)",
           "primSec": "-",
           "level": 0,
           "spec": ""
         },
         "leader": {
           "value": 0,
-          "label": "Leader",
+          "label": "Leader(WIL)*",
           "primSec": "-",
           "level": 0,
           "spec": "",
-          "adv": yes
+          "adv": "yes"
         },
         "jedi": {
           "value": 0,
-          "label": "Jedi",
+          "label": "Jedi(WIL)*",
           "primSec": "-",
           "level": 0,
           "spec": "",
-          "adv": yes
+          "adv": "yes"
         },
         "sith": {
           "value": 0,
-          "label": "Sith",
+          "label": "Sith(WIL)*",
           "primSec": "-",
           "level": 0,
           "spec": "",
-          "adv": yes
+          "adv": "yes"
         },
         "medic": {
           "value": 0,
-          "label": "Medic",
+          "label": "Medic(LOG)*",
           "primSec": "-",
           "level": 0,
           "spec": "",
-          "adv": yes
+          "adv": "yes"
         },
         "scout": {
           "value": 0,
-          "label": "Scout",
+          "label": "Scout(LOG)",
           "primSec": "-",
           "level": 0,
           "spec": ""
         },
         "warrior": {
           "value": 0,
-          "label": "Warrior",
+          "label": "Warrior(STR/DEX)",
           "primSec": "-",
           "level": 0,
           "spec": ""
         },
         "technician": {
           "value": 0,
-          "label": "Technician",
+          "label": "Technician(LOG)*",
           "primSec": "-",
           "level": 0,
           "spec": ""
         },
         "thief": {
           "value": 0,
-          "label": "Thief",
+          "label": "Thief(DEX)",
           "primSec": "-",
           "level": 0,
           "spec": ""
         }
       }
 
-      }
     }
   },
   "Item": {
