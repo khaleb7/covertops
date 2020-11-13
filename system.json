@@ -23,8 +23,8 @@
   "gridUnits": "ft",
   "primaryTokenAttribute": "BP",
   "secondaryTokenAttribute": "MOV",
-  "url": "",
-  "manifest": "",
-  "download": "",
+  "url": "https://github.com/khaleb7/covertops",
+  "manifest": "https://github.com/khaleb7/covertops/system.json",
+  "download": "https://github.com/khaleb7/covertops/archive/main.zip",
   "license": "LICENSE.txt"
 }
