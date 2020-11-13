@@ -1,22 +1,42 @@
 {
   "Actor": {
-    "types": ["character"],
+    "types": ["character","npc"],
+
     "templates": {
       "base": {
-        "health": {
+        "BP": {
           "value": 10,
           "min": 0,
           "max": 10
         },
-        "power": {
+        "MOV": {
           "value": 5,
           "min": 0,
           "max": 5
+        },
+        "DR": {
+          "value": 0
+        },
+        "INIT": {
+          "value": 1
         }
+
       }
     },
+
+    "npc": {
+      "templates": ["base"],
+      "biography": "",
+      "primarySkill": 40,
+      "secondarySkill": 40
+    },
+
+
     "character": {
       "templates": ["base"],
+      "species": "",
+      "origin": "",
+      "descriptors": "",
       "biography": "",
       "attributes": {
         "level": {
@@ -30,18 +50,92 @@
         "dex": {
           "value": 10
         },
-        "con": {
+        "log": {
           "value": 10
         },
-        "int": {
+        "wil": {
           "value": 10
-        },
-        "wis": {
-          "value": 10
-        },
-        "cha": {
-          "value": 10
+
         }
+      },
+      "skills": {
+        "academic": {
+          "value": 0,
+          "label": "Academic",
+          "primSec": "-",
+          "level": 0,
+          "spec": "",
+          "adv": yes
+        },
+        "investigator": {
+          "value": 0,
+          "label": "Investigator",
+          "primSec": "-",
+          "level": 0,
+          "spec": ""
+        },
+        "leader": {
+          "value": 0,
+          "label": "Leader",
+          "primSec": "-",
+          "level": 0,
+          "spec": "",
+          "adv": yes
+        },
+        "jedi": {
+          "value": 0,
+          "label": "Jedi",
+          "primSec": "-",
+          "level": 0,
+          "spec": "",
+          "adv": yes
+        },
+        "sith": {
+          "value": 0,
+          "label": "Sith",
+          "primSec": "-",
+          "level": 0,
+          "spec": "",
+          "adv": yes
+        },
+        "medic": {
+          "value": 0,
+          "label": "Medic",
+          "primSec": "-",
+          "level": 0,
+          "spec": "",
+          "adv": yes
+        },
+        "scout": {
+          "value": 0,
+          "label": "Scout",
+          "primSec": "-",
+          "level": 0,
+          "spec": ""
+        },
+        "warrior": {
+          "value": 0,
+          "label": "Warrior",
+          "primSec": "-",
+          "level": 0,
+          "spec": ""
+        },
+        "technician": {
+          "value": 0,
+          "label": "Technician",
+          "primSec": "-",
+          "level": 0,
+          "spec": ""
+        },
+        "thief": {
+          "value": 0,
+          "label": "Thief",
+          "primSec": "-",
+          "level": 0,
+          "spec": ""
+        }
+      }
+
       }
     }
   },
