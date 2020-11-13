@@ -61,7 +61,7 @@
       "skills": {
         "academic": {
           "value": 0,
-          "label": "Academic(LOG)",
+          "label": "Academic-LOG",
           "primSec": "-",
           "level": 0,
           "spec": "",
@@ -70,14 +70,14 @@
         },
         "investigator": {
           "value": 0,
-          "label": "Investigator(LOG)",
+          "label": "Investigator-LOG",
           "primSec": "-",
           "level": 0,
           "spec": ""
         },
         "leader": {
           "value": 0,
-          "label": "Leader(WIL)*",
+          "label": "Leader-A-WIL",
           "primSec": "-",
           "level": 0,
           "spec": "",
@@ -85,7 +85,7 @@
         },
         "jedi": {
           "value": 0,
-          "label": "Jedi(WIL)*",
+          "label": "Jedi-A-WIL",
           "primSec": "-",
           "level": 0,
           "spec": "",
@@ -93,7 +93,7 @@
         },
         "sith": {
           "value": 0,
-          "label": "Sith(WIL)*",
+          "label": "Sith-A-WIL",
           "primSec": "-",
           "level": 0,
           "spec": "",
@@ -101,7 +101,7 @@
         },
         "medic": {
           "value": 0,
-          "label": "Medic(LOG)*",
+          "label": "Medic-A-LOG",
           "primSec": "-",
           "level": 0,
           "spec": "",
@@ -109,28 +109,28 @@
         },
         "scout": {
           "value": 0,
-          "label": "Scout(LOG)",
+          "label": "Scout-LOG",
           "primSec": "-",
           "level": 0,
           "spec": ""
         },
         "warrior": {
           "value": 0,
-          "label": "Warrior(STR/DEX)",
+          "label": "Warrior-STR-DEX",
           "primSec": "-",
           "level": 0,
           "spec": ""
         },
         "technician": {
           "value": 0,
-          "label": "Technician(LOG)*",
+          "label": "Technician-A-LOG",
           "primSec": "-",
           "level": 0,
           "spec": ""
         },
         "thief": {
           "value": 0,
-          "label": "Thief(DEX)",
+          "label": "Thief-DEX",
           "primSec": "-",
           "level": 0,
           "spec": ""
