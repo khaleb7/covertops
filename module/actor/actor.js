@@ -118,8 +118,7 @@ export class covertOpsActor extends Actor {
     } else {
       data.skills.soldier.base = Math.ceil(Number(data.abilities.dex.value) / 2);
     }
-
-    data.skills.warrior.value = Number(data.skills.warrior.base) + Number(10 * data.skills.soldier.level);
+    data.skills.soldier.value = Number(data.skills.soldier.base) + Number(10 * data.skills.soldier.level);
 
     if (data.skills.warrior.primSec == "P") {
       data.skills.warrior.base = Math.ceil(Number(data.abilities.str.value) / 2) + 20;
