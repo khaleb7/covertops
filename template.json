@@ -128,8 +128,14 @@
           "label": "Warrior",
           "primSec": "-",
           "level": 0,
-          "ranged": 0,
-          "melee": 0,
+          "spec": ""
+        },
+        "soldier": {
+          "value": 0,
+          "base": 0,
+          "label": "Soldier",
+          "primSec": "-",
+          "level": 0,
           "spec": ""
         },
         "technician": {
