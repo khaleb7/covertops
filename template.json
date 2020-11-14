@@ -149,7 +149,7 @@
         "thief": {
           "value": 0,
           "base": 0,
-          "label": "Thief-DEX",
+          "label": "Thief",
           "primSec": "-",
           "level": 0,
           "spec": ""
