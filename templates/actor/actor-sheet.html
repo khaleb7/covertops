@@ -88,7 +88,7 @@
         {{#each data.skills as |skills key|}}
         <div class="Skills flexrow flex-group-left">
             <label for="data.skills.{{key}}.value" class="attribute-label">{{skills.label}}</label>
-            <span class="ability-mod rollable" data-roll="d100" data-label="{{skills.label}}">{{numberFormat skills.value decimals=0 sign=true}}</span>
+            <span class="ability-mod rollable" data-roll="d100" data-label="{{skills.label}}"</span>
             <input type="text" name="data.skills.{{key}}.level" value="{{skills.level}}" data-dtype="Number"/>
             <input type="text" name="data.skills.{{key}}.primSec" value="{{skills.primSec}}" data-dtype="String"/>
             <input type="text" name="data.skills.{{key}}.value" value="{{skills.value}}" data-dtype="Number"/>
