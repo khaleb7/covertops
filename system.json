@@ -24,7 +24,7 @@
   "primaryTokenAttribute": "BP",
   "secondaryTokenAttribute": "MOV",
   "url": "https://github.com/khaleb7/covertops",
-  "manifest": "https://github.com/khaleb7/covertops/blob/prod/system.json",
+  "manifest": "https://github.com/khaleb7/covertops/raw/prod/system.json",
   "download": "https://github.com/khaleb7/covertops/archive/prod.zip",
   "license": "LICENSE.txt"
 }
