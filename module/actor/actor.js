@@ -32,6 +32,18 @@ export class covertOpsActor extends Actor {
       // Calculate the modifier using d20 rules.
       ability.mod = Math.floor((ability.value - 10) / 2);
     }
+    // set base skill values
+    if (data.skills.academic.primSec == "P") {
+      data.skills.academic.base = Math.ceil(Number(data.abilities.log.value) / 2) + 20;
+    } else if (data.skills.academic.primSec == "S") {
+      data.skills.academic.base = Math.ceil(Number(data.abilities.log.value) / 2) + 10;
+    } else { data.skills.academic.base = Math.ceil(Number(data.abilities.log.value) / 2)};
+    data.skills.academic.value = Number(data.skills.academic.base) + Number( 10 * data.skills.academic.level); ;
+
+
+
   }
+
+
 
 }

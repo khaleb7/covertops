@@ -82,15 +82,13 @@
             <label>  </label>
             <label> +Levelx10 </label>
             <label> +PS  </label>
-            <label> Score </label>
             <label> Specs </label>
         </div>
         {{#each data.skills as |skills key|}}
         <div class="Skills flexrow flex-group-left">
-            <span class="ability-mod rollable" data-roll="d100" data-label="{{skills.label}} {{skills.value}}">{{skills.label}} : {{skills.value}}</span>
+            <span class="ability-mod rollable" data-roll="d100" data-label="{{skills.label}} <= {{skills.value}}">{{skills.label}} : {{skills.value}}</span>
             <input type="text" name="data.skills.{{key}}.level" value="{{skills.level}}" data-dtype="Number"/>
             <input type="text" name="data.skills.{{key}}.primSec" value="{{skills.primSec}}" data-dtype="String"/>
-            <input type="text" name="data.skills.{{key}}.value" value="{{skills.value}}" data-dtype="Number"/>
             <input type="text" name="data.skills.{{key}}.spec" value="{{skills.spec}}" data-dtype="String"/>
         </div>
         {{/each}}

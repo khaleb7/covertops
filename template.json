@@ -62,7 +62,8 @@
       "skills": {
         "academic": {
           "value": 0,
-          "label": "Academic-LOG",
+          "base": 0,
+          "label": "Academic",
           "primSec": "-",
           "level": 0,
           "spec": "",
@@ -71,14 +72,16 @@
         },
         "investigator": {
           "value": 0,
-          "label": "Investigator-LOG",
+          "base": 0,
+          "label": "Investigator",
           "primSec": "-",
           "level": 0,
           "spec": ""
         },
         "leader": {
           "value": 0,
-          "label": "Leader-A-WIL",
+          "base": 0,
+          "label": "Leader",
           "primSec": "-",
           "level": 0,
           "spec": "",
@@ -86,7 +89,8 @@
         },
         "jedi": {
           "value": 0,
-          "label": "Jedi-A-WIL",
+          "base": 0,
+          "label": "Jedi",
           "primSec": "-",
           "level": 0,
           "spec": "",
@@ -94,7 +98,8 @@
         },
         "sith": {
           "value": 0,
-          "label": "Sith-A-WIL",
+          "base": 0,
+          "label": "Sith",
           "primSec": "-",
           "level": 0,
           "spec": "",
@@ -102,7 +107,8 @@
         },
         "medic": {
           "value": 0,
-          "label": "Medic-A-LOG",
+          "base": 0,
+          "label": "Medic",
           "primSec": "-",
           "level": 0,
           "spec": "",
@@ -110,27 +116,33 @@
         },
         "scout": {
           "value": 0,
-          "label": "Scout-LOG",
+          "base": 0,
+          "label": "Scout",
           "primSec": "-",
           "level": 0,
           "spec": ""
         },
         "warrior": {
           "value": 0,
-          "label": "Warrior-STR-DEX",
+          "base": 0,
+          "label": "Warrior",
           "primSec": "-",
           "level": 0,
+          "ranged": 0,
+          "melee": 0,
           "spec": ""
         },
         "technician": {
           "value": 0,
-          "label": "Technician-A-LOG",
+          "base": 0,
+          "label": "Technician",
           "primSec": "-",
           "level": 0,
           "spec": ""
         },
         "thief": {
           "value": 0,
+          "base": 0,
           "label": "Thief-DEX",
           "primSec": "-",
           "level": 0,
